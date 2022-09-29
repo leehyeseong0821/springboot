@@ -21,7 +21,7 @@ public class pageController {
         return "test/test_page2";
     } @GetMapping("/test4")
     public String test4(Model model,TestReqDto testReqdto){
-        
+
         System.out.println(testReqdto);
 
         model.addAttribute("data",testReqdto.getStrData());
