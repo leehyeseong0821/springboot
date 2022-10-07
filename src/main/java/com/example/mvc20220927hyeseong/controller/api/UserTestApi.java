@@ -19,15 +19,15 @@ public class UserTestApi {
   public String addUserParam( //메소드이름 adduser
            @RequestParam String username,
            @RequestParam String password,
-          @RequestParam String name,
-          @RequestParam String email){
+           @RequestParam String name,
+           @RequestParam String email){
 
       Map<String,String> map = new HashMap<String, String>();
 
        map.put("username",username);
        map.put("password",password);
        map.put("name",name);
-      map.put("email",email);
+       map.put("email",email);
 
       System.out.println("map: " +map.toString());
 
@@ -54,7 +54,11 @@ public class UserTestApi {
     public Object addUserJSON(@RequestBody UserReDto userReDto){
 
         List<Map<Integer,UserReDto>> list = new ArrayList<Map<Integer,UserReDto>>();
-
+//        int j =0;
+//        if(j==0){
+//            throw new RuntimeException();
+//        } 예외
+        
         Map<Integer,UserReDto> map = null;
         for(int i=0; i<100;i++){
             if(i==0 || i%10==0){
