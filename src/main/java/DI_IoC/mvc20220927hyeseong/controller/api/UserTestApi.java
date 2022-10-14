@@ -1,9 +1,7 @@
-package com.example.mvc20220927hyeseong.controller.api;
+package DI_IoC.mvc20220927hyeseong.controller.api;
 
-import com.example.mvc20220927hyeseong.dto.UserReDto;
-import org.apache.catalina.User;
+import DI_IoC.mvc20220927hyeseong.dto.UserReDto;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;

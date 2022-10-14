@@ -1,4 +1,4 @@
-package com.example.mvc20220927hyeseong.controller.api;
+package DI_IoC.mvc20220927hyeseong.controller.api;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

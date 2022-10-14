@@ -1,10 +1,8 @@
-package com.example.mvc20220927hyeseong.service;
+package DI_IoC.mvc20220927hyeseong.service;
 
 
-import com.example.mvc20220927hyeseong.repository.TestRepository;
-import com.example.mvc20220927hyeseong.repository.TestRepositoryImpl;
+import DI_IoC.mvc20220927hyeseong.repository.TestRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component("ts1")

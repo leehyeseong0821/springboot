@@ -1,4 +1,4 @@
-package com.example.mvc20220927hyeseong.dto;
+package DI_IoC.mvc20220927hyeseong.dto;
 
 
 import lombok.AllArgsConstructor;

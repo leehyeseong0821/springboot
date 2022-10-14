@@ -1,4 +1,4 @@
-package com.example.mvc20220927hyeseong.repository;
+package DI_IoC.mvc20220927hyeseong.repository;
 
 import org.springframework.stereotype.Component;
 

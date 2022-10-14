@@ -1,4 +1,4 @@
-package com.example.mvc20220927hyeseong;
+package DI_IoC.mvc20220927hyeseong;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

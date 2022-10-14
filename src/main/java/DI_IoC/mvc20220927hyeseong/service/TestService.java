@@ -1,4 +1,4 @@
-package com.example.mvc20220927hyeseong.service;
+package DI_IoC.mvc20220927hyeseong.service;
 
 public interface TestService {
 

@@ -1,6 +1,6 @@
-package com.example.mvc20220927hyeseong.repository;
+package DI_IoC.mvc20220927hyeseong.repository;
 
-import com.example.mvc20220927hyeseong.config.TestSetting;
+import DI_IoC.mvc20220927hyeseong.config.TestSetting;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

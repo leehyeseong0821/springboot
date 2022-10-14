@@ -1,4 +1,4 @@
-package com.example.mvc20220927hyeseong.config;
+package DI_IoC.mvc20220927hyeseong.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
